@@ -10,16 +10,14 @@
 		crossorigin="anonymous" />
 
 	<!-- script -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
 	<!-- QC2020 css -->
 	<link rel="styleSheet" href="./css/reset.css" />
 	<link rel="styleSheet" href="./css/qc2020.min.css" />
 
 	<!-- Font -->
-	<link
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
-      rel="stylesheet"
-    />
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
 
 	<title>QC2020</title>
 </head>
@@ -27,17 +25,18 @@
 <body>
 	<!-- header -->
 	<header>
-		<a href ="qc2020.html">
-		<span class="logo_text">
-			Moon Gun Who
-		</span>
-	</a>
+		<a href="qc2020.html">
+			<span class="logo_text">
+				Moon Gun Who
+			</span>
+		</a>
 
 		<ul class="menu_list">
-			<li>메뉴</li>
-			<li>메뉴</li>
-			<li>메뉴</li>
-			<li>메뉴</li>
+			<li><a class="menu scroll" href="#main">메뉴</a></li>
+			<li><a class="menu scroll" href="#contents">메뉴</a></li>
+			<li><a class="menu scroll" href="#getstart">메뉴</a></li>
+			<li><a class="menu scroll" href="">메뉴</a></li>
+
 		</ul>
 		<div class="menu_icons">
 			<a href="https://github.com/who307"><i class="fab fa-git-square"></i></a>
@@ -51,14 +50,14 @@
 
 	<!-- contents -->
 	<div class="layout">
-		<article class="article1">
+		<article id="main" class="article1">
 			<div class="div1">
 				<span>Moon Gun Who</span>
 				<span>QC2020</span>
 			</div>
 		</article>
 
-		<article class="article2">
+		<article id="contents" class="article2">
 			<div class="con_title">contents</div>
 			<div class="contents">
 				<div class="div1">
@@ -82,7 +81,7 @@
 			</div>
 		</article>
 
-		<article class="article3">
+		<article id="getstart" class="article3">
 			<div class="con_title">GET START</div>
 			<div class="contents">
 				<div class="div1">

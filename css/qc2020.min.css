@@ -25,7 +25,6 @@ body{
 }
 .layout {
     padding-top: 72px;
-    
 }
 
 header{
@@ -34,13 +33,17 @@ header{
     left: 0;
     right: 0;
     padding : 24px 40px;
-    background-color: #929bfc;
+    background-color: #262e8d;
     color : white;
     z-index: 999;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    
+    transition: all 1.5s;
+}
+.down {
+    background-color: rgb(146, 155, 252, 0.9);
+    font-weight: bold;
 }
 
 .logo_text{
@@ -53,18 +56,25 @@ header{
     justify-content: space-around;
 }
 .menu_list li {
-    color : white;
     cursor: pointer;
-    padding : 8px 24px;
     border-radius: 10px;
+    padding : 10px 0px;
 }
-.menu_list li:hover{
+.menu_list li .menu{
+    color: white;
+    padding : 8px 24px;
+}
+.menu_list li .black{
+    color: black;
+}
+
+.menu_list li:hover {
     background-color: #675fff;
     transition: all 0.6s;
     transform: scale(1.05);  
 }
 
-header .menu_icons i {
+.menu_icons i {
     color : white;
     font-size : 40px;
     padding : 0 10px; 
@@ -364,8 +374,7 @@ footer {
 @media (max-width : 1080px){
     header{
         flex-direction: column;
-        align-items: flex-start;
-        
+        align-items: flex-start;       
     }
     .menu_list {
         width: 100%;
@@ -403,7 +412,7 @@ footer {
       }    
    .active{
         display: flex;
-        animation: fade-in 1.3s;   
+        animation: fade-in 1.3s;  
     }
 
 }
