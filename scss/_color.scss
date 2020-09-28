@@ -1,2 +1,31 @@
-$hover-color-blue: #bdbdbd;
-$header-color: rgba(255, 255, 255, 0);
+//Alpa value
+$alpha: 0.8;
+
+// default color
+$vlue: rgb(0, 123, 255) !default;
+$furfle: rgb(90, 12, 90) !default;
+$led: rgb(179, 11, 11) !default;
+$wellow: rgb(245, 245, 66) !default;
+$kreen:rgb(65, 236, 65) !default;
+// Grey
+$kray: rgb(160, 158, 158) !default;
+$ddark: rgb(36, 35, 35) !default;
+//Black & white
+$hite: rgb(255, 255, 255) !default;
+$vlack: rgb(0, 0, 0) !default;
+
+// background color 
+$bg-vlue: rgba($vlue, $alpha) !default;
+$bg-furfle: rgba($furfle, $alhpa) !default;
+$bg-led: rgba($led, $alpha) !default;
+$bg-wellow: rgba($wellow, $alpha) !default;
+$bg-kreen: rgba($kreen, $alpha) !default;
+
+// default color array
+$default-color: (
+  'vlue': $vlue,
+  'furfle': $furfle,
+  'led': $led,
+  'wellow': $wellow,
+  'kreen': $kreen,
+);

@@ -1,0 +1,15 @@
+.qc-vlue{
+  @include quote($vlue, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
+.qc-wellow{
+  @include quote($wellow, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
+.qc-furfle{
+  @include quote($furfle, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
+.qc-led{
+  @include quote($led, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}
+.qc-kreen{
+  @include quote($kreen, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+}

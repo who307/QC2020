@@ -1,0 +1,277 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+::-moz-selection {
+    background: #a2ff85;
+    text-shadow: none;
+   }
+   
+   ::selection {
+    background: #a2ff85;
+    text-shadow: none;
+   }
+   
+   img::-moz-selection {
+    background: transparent;
+   }
+   
+   img::selection {
+    background: transparent;
+   }
+   
+img::-moz-selection {
+    background: transparent;
+   }
+
+body{
+    font-family: 'Source Sans Pro';
+}
+.layout {
+    padding-left: 220px;
+		font-family: 'Nanum Pen Script', cursive;
+}
+
+header{
+    width : 180px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding : 24px 20px;
+    background-color: #262e8d;
+    color : white;
+    z-index: 999;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1.0s;
+}
+.down {
+    background-color: rgb(146, 155, 252, 0.9);
+    
+}
+
+.logo_text{
+    color : white;
+    font-size : 45px;
+	font-family: 'Nanum Pen Script', cursive;
+	}
+.menu_list {
+    width: 180px;
+    height : 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    padding : 200px 0 225px 0 ;
+}
+.menu_list li {
+    cursor: pointer;
+    border-radius: 50px;
+    padding : 10px 0;
+}
+.menu_list li .menu{
+    color: white;
+    padding : 8px 24px;
+}
+.menu_list li .black{
+    color: black;
+}
+
+.menu_list li:hover {
+    background-color: #675fff;
+    transition: all 0.6s;
+    transform: scale(1.05);  
+}
+
+.menu_icons i {
+    color : white;
+    font-size : 40px;
+    padding : 40px 10px; 
+}
+.menu_icons i:hover {
+    transform: scale(1.2);
+}
+
+.menu_toggleBtn{
+    position: absolute;
+    right: 20px;
+    top :25px;
+    display: none;   
+    cursor: pointer;
+}
+.menu_toggleBtn .hamIcon{
+    font-size : 40px;
+    color : white;
+}
+.article1 {
+    width : 100%;
+    height : 800px;
+    display : inline-flex;
+    
+}
+.article1 .div1{
+    width : 100%;
+    height : 800px;
+    background-color: mediumorchid; 
+    display: flex;
+    justify-content: center;
+    background : url('../images/QC배경.jpg');
+    background-size : 100% 800px;
+    flex-direction: column;
+}
+.article2 {
+    width : 100%;
+    height : 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.article2 .con_title {
+    width : 100%;
+    height: 100px;
+    line-height: 100px;
+   color : black;
+   font-size : 50px;
+   display: flex;
+   justify-content: center;
+   background-color: rgb(255, 255, 255);
+}
+.article2 .contents {
+		display: flex;
+		font-family: 'Nanum Pen Script', cursive;
+}
+.article2 .div1{
+    width : calc(100%/3);
+		height : 300px;
+		display: flex;
+    align-items: center;
+}
+.article2 .div2{
+    width : calc(100%/3);
+		height : 300px;
+		display: flex;
+    align-items: center;
+}
+
+.article2 .div3{
+    width : calc(100%/3);
+    height : 300px;
+    display: flex;
+    align-items: center;
+}
+
+.article3 .con_title {
+   width : 100%;
+   height: 100px;
+   line-height: 100px;
+  color : black;
+  font-size : 50px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.article3 .contents {
+   display: flex;
+}
+.article3 .div1{
+    width : calc(100%/2);
+    height : 500px;
+    background-color: rgb(1, 255, 137)
+}
+.article3 .div2{
+    width : calc(100%/2);
+    height : 500px;
+    background-color: rgb(255, 106, 68);
+}
+
+footer {
+   width: 100%;
+   height : 40px;
+   display: flex;
+   justify-content: center;
+   background-color : rgb(95, 93, 93);
+   color : white;
+	 line-height: 40px;
+	 font-size : 30px;
+}
+
+@media (max-width : 1080px){
+    .layout {
+        padding-top: 93px;
+        padding-left :0;
+        font-family: 'Nanum Pen Script', cursive;
+    }
+    header{
+        width : 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding : 24px 0px;
+        background-color: #262e8d;
+        color : white;
+        z-index: 999;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.8s;
+        flex-direction: column;
+        align-items: flex-start;       
+    }
+    .logo_text{
+        color : white;
+        font-size : 45px;
+        margin-left: 40px;
+        font-family: 'Nanum Pen Script', cursive;
+        }
+    .menu_list {
+        width: 100%;
+        height: 200px;
+        align-items: center;
+        display: none;
+        padding : 30px 0 30px 0;
+    }
+    .menu_list li {
+        width : 150px;
+        padding : 10px 300px;
+        text-align: center;
+        color : white;
+    }
+    .menu_icons{
+        width : 100%;
+        display: none;
+        justify-content: center;
+        padding : 0px 0;
+    }
+    .menu_icons i {
+        padding: 40px 10px 0px 10px;
+    }
+    .menu_toggleBtn{
+        display: block;
+    }
+    .menu_toggleBtn .icon_color {
+        color : #675fff;
+    }
+    @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }    
+   .active{
+        display: flex;
+        animation: fade-in 1.3s;  
+    }
+    
+    .article2{
+        padding : 50px 0 100px 0;
+    }
+    .article2 .con_title {
+        padding-bottom : 50px;
+    }
+
+}
