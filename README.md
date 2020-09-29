@@ -16,4 +16,4 @@
 
 ## 9월 29일
 1. 헤더 네비 수정
-2. typographt.scss 설정 (font, line-height, text-align 추가)
+2. _typography.scss 설정 (font, line-height, text-align 추가)
