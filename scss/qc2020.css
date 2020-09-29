@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap");
+header {
+  font-size: 1.8rem;
+  font-family: "Hi Melody", cursive;
+}
+
+div {
+  font-size: 30px;
+  font-family: "Nanum Pen Script", cursive;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+.qfont {
+  font-size: 2rem;
+}
+
+.qc-kreen {
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+  -webkit-box-shadow: 0 1px 2px black, 0 2px 4px black;
+          box-shadow: 0 1px 2px black, 0 2px 4px black;
+  background: rgba(65, 236, 65, 0.8);
+  line-height: 2.3rem;
+  font-size: 2rem;
+  border-bottom: 20px solid #ff4747;
+  position: relative;
+}
+
+.qc-kreen ::before {
+  height: 30px;
+  content: "“";
+  font-size: 10rem;
+  position: relative;
+  top: 0;
+  margin-top: 0px;
+  color: #b30b0b;
+}
+
+.qc-kreen ::after {
+  height: 30px;
+  content: "”";
+  font-size: 10rem;
+  position: absolute;
+  bottom: -80px;
+  right: 20px;
+  margin-top: 0px;
+  color: #b30b0b;
+}
+
+.qc-vlue {
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+  -webkit-box-shadow: 0 1px 2px black, 0 2px 4px black;
+          box-shadow: 0 1px 2px black, 0 2px 4px black;
+  background: rgba(0, 123, 255, 0.8);
+  line-height: 2.3rem;
+  font-size: 2rem;
+  border-bottom: 20px solid #ffb350;
+  position: relative;
+}
+
+.qc-vlue :before {
+  height: 30px;
+  content: "“";
+  font-size: 8rem;
+  position: relative;
+  top: 50px;
+  margin-top: 0px;
+  color: #f5f542;
+}
+
+.qc-vlue :after {
+  height: 30px;
+  content: "”";
+  font-size: 6rem;
+  position: relative;
+  bottom: -100px;
+  right: -100px;
+  margin-top: 0px;
+  color: #f5f542;
+}
+
+.qc-led {
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+  -webkit-box-shadow: 0 1px 2px black, 0 2px 4px black;
+          box-shadow: 0 1px 2px black, 0 2px 4px black;
+  background: rgba(179, 11, 11, 0.8);
+  line-height: 2.3rem;
+  font-size: 2rem;
+  border-bottom: 20px solid #39398a;
+  position: relative;
+}
+
+.qc-led :before {
+  height: 30px;
+  content: "“";
+  font-size: 5rem;
+  position: relative;
+  top: 0;
+  margin-top: 0px;
+  color: #41ec41;
+}
+
+.qc-led :after {
+  height: 30px;
+  content: "”";
+  font-size: 8rem;
+  position: relative;
+  bottom: -130px;
+  right: -200px;
+  margin-top: 0px;
+  color: #41ec41;
+}
+/*# sourceMappingURL=qc2020.css.map */

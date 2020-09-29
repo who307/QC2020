@@ -1,6 +1,6 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
 
 ::-moz-selection {
     background: #a2ff85;
@@ -29,7 +29,6 @@ body{
 }
 .layout {
     padding-left: 220px;
-		font-family: 'Nanum Pen Script', cursive;
 }
 
 header{
@@ -54,7 +53,6 @@ header{
 .logo_text{
     color : white;
     font-size : 45px;
-	font-family: 'Nanum Pen Script', cursive;
 	}
 .menu_list {
     width: 180px;
@@ -88,7 +86,7 @@ header{
 .menu_icons i {
     color : white;
     font-size : 40px;
-    padding : 40px 10px; 
+    padding : 40px 5px; 
 }
 .menu_icons i:hover {
     transform: scale(1.2);
@@ -140,7 +138,6 @@ header{
 }
 .article2 .contents {
 		display: flex;
-		font-family: 'Nanum Pen Script', cursive;
 }
 .article2 .div1{
     width : calc(100%/3);
@@ -201,7 +198,6 @@ footer {
     .layout {
         padding-top: 93px;
         padding-left :0;
-        font-family: 'Nanum Pen Script', cursive;
     }
     header{
         width : 100%;
@@ -224,7 +220,6 @@ footer {
         color : white;
         font-size : 45px;
         margin-left: 40px;
-        font-family: 'Nanum Pen Script', cursive;
         }
     .menu_list {
         width: 100%;

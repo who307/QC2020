@@ -4,27 +4,19 @@ $default-padding: 1em;
 $default-margin-top: 1em;
 $default-margin-right: 1em; 
 
-$defualt-font-weight: 300;
+$default-font-weight: 300;
 
 $default-p-size: 22px;
 $default-p-line-height: 1.5;
 $default-p-margin: 0;
 $default-p-max-width: 80%;
 
-$font-size: 16px;
-$margin-top: 10px;
-$display: block;
-$font-weight: 200;
-$opacity: 0.8;
+$before-content: "“";
+$after-content: "”";
 
+$qborder-red : 20px solid rgb(255, 71, 71);
+$qborder-orange : 20px solid rgb(255, 179, 80);
+$qborder-blue : 20px solid rgb(57, 57, 138);
+
+$box-shadow-color : black;
 $box-shadow: 0 1px 2px $box-shadow-color, 0 2px 4px $box-shadow-color;
-
-$quote-after-content: "”";
-$quote-before-content: "“";
-
-$font-weight: 200;
-
-$p-font-size: 22px;
-$p-max-width: 80%;
-
-$bottom-font-size: 16px;

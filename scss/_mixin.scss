@@ -1,44 +1,113 @@
-@mixin quote($color, $font-color, $box-shadow, $font-weight, $p-font-size, $max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size) {   
-  background: $color;
-  box-shadow: $box-shadow;
-  color: $font-color;
-  padding: 20px;
-  padding-left: 50px;
-  box-sizing: border-box;
-  font-style: italic;
-  position: relative;
-  overflow: hidden;
-  min-height: 120px;
-  font-size: $bottom-font-size;
-  margin-top: 10px;
-  display: block;
-  font-weight: $font-weight;
+@mixin header-size($header-font-size, $header-font-family){
+  font-size : $header-font-size;
+  font-family: $header-font-family;
+}
 
-  p {
-      font-style: normal;
-      font-weight: bold;
-      font-size: $p-font-size;
-      line-height: 1.5;
-      margin: 0;
-      max-width: $p-max-width;
-  }
+@mixin div-size($root-font-size, $qfont-family, $qtext-align-center){
+  font-size : $root-font-size;
+  font-family: $qfont-family;
+  text-align: $qtext-align-center;
+}
+@mixin h1-size($h1-size){
+  font-size : $h1-size;
+}
+@mixin qfont-size($qfont-size){
+  font-size : $qfont-size;
+}
+
+@mixin qc-kreen($led, $qborder-red, $bg-kreen, $qfont-size, $root-line-height, $box-shadow, $after-content, $before-content) {   
+  width : 100%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow:$box-shadow;
+  background : $bg-kreen;
+  line-height: $root-line-height;
+  font-size : $qfont-size;
+  border-bottom : $qborder-red;
+  position: relative;
+  
+ ::before {
+    height: 30px;
+    content: $before-content;
+    font-size : 10rem;
+    position: relative;
+    top: 0;
+    margin-top: 0px;
+    color : $led;
+    }
+  ::after {
+    height: 30px;
+    content: $after-content;
+    font-size : 10rem;
+    position: absolute;
+    bottom: -80px;
+    right : 20px;
+    margin-top: 0px;
+    color : $led;
+    }
+}
+@mixin qc-vlue($wellow, $qborder-orange, $bg-vlue, $qfont-size, $root-line-height,  $box-shadow, $after-content, $before-content) {   
+  width : 100%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow:$box-shadow;
+  background : $bg-vlue;
+  line-height: $root-line-height;
+  font-size : $qfont-size;
+  border-bottom : $qborder-orange;
+  position: relative;
+
+  
   :before {
-      content: $quote-before-content;
-      position: absolute;
-      top: 0px;
-      left: 10px;
-      font-size: 5em;
-      color: $quote-color;
-      font-weight: normal;
+    height: 30px;
+    content: $before-content;
+    font-size : 8rem;
+    position: relative;
+    top: 50px;
+    margin-top: 0px;
+    color : $wellow;
     }
   :after {
-      content: $quote-after-content;
-      position: absolute;
-      bottom: -110px;
-      line-height: 100px;
-      right: -32px;
-      font-size: 20em;
-      color: $quote-color;
-      font-weight: normal;
-  }
+    height: 30px;
+    content: $after-content;
+    font-size : 6rem;
+    position: relative;
+    bottom: -100px;
+    right : -100px;
+    margin-top: 0px;
+    color : $wellow;
+    }
+}
+
+@mixin qc-led($kreen, $qborder-blue, $bg-led, $qfont-size, $root-line-height, $box-shadow, $after-content, $before-content) {   
+  width : 100%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow:$box-shadow;
+  background : $bg-led;
+  line-height: $root-line-height;
+  font-size : $qfont-size;
+  border-bottom : $qborder-blue;
+  position: relative;
+
+  
+  :before {
+    height: 30px;
+    content: $before-content;
+    font-size : 5rem;
+    position: relative;
+    top: 0;
+    margin-top: 0px;
+    color : $kreen;
+    }
+  :after {
+    height: 30px;
+    content: $after-content;
+    font-size : 8rem;
+    position: relative;
+    bottom: -130px;
+    right : -200px;
+    margin-top: 0px;
+    color : $kreen;
+    }
 }

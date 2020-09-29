@@ -1,15 +1,23 @@
+header{
+  @include header-size($header-font-size, $header-font-family);
+}
+
+div{
+  @include div-size($root-font-size, $qfont-family, $qtext-align-center);
+}
+h1{
+  @include h1-size($h1-size);
+}
+.qfont{
+  @include qfont-size($qfont-size);
+}
+
+.qc-kreen{
+  @include qc-kreen($led, $qborder-red, $bg-kreen, $qfont-size, $root-line-height, $box-shadow, $after-content, $before-content);
+}
 .qc-vlue{
-  @include quote($vlue, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
-}
-.qc-wellow{
-  @include quote($wellow, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
-}
-.qc-furfle{
-  @include quote($furfle, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+  @include qc-vlue($wellow, $qborder-orange, $bg-vlue, $qfont-size, $root-line-height,  $box-shadow, $after-content, $before-content);
 }
 .qc-led{
-  @include quote($led, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
-}
-.qc-kreen{
-  @include quote($kreen, $font-color-white, $box-shadow, $font-weight, $p-font-size, $p-max-width, $quote-color, $quote-after-content, $quote-before-content, $bottom-font-size)
+  @include qc-led($kreen, $qborder-blue, $bg-led, $qfont-size, $root-line-height, $box-shadow, $after-content, $before-content);
 }
