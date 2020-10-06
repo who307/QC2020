@@ -1,6 +1,9 @@
 # 문건후
 닷홈주소 : http://who307.dothome.co.kr/QC2020/qc2020.html
 
+## 10월 6일
+1. live Sass Compiler 경로수정
+
 ## 9월 29일
 1. 헤더 네비 수정
 2. _typography.scss 설정 (font, line-height, text-align 추가)

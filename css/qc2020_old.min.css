@@ -175,12 +175,12 @@ header{
 .article3 .div1{
     width : calc(100%/2);
     height : 500px;
-    background-color: rgb(1, 255, 137)
+    background-color: rgb(223, 223, 223)
 }
 .article3 .div2{
     width : calc(100%/2);
     height : 500px;
-    background-color: rgb(255, 106, 68);
+    background-color: rgb(255, 201, 188);
 }
 
 footer {
